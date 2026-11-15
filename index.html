@@ -64,9 +64,6 @@
   a{color:inherit; text-decoration:none;}
   ul { list-style: none; }
 
-  .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.5, 0, 0, 1); }
-  .reveal.in { opacity: 1; transform: translateY(0); }
-
   /* HEADER Y NAV */
   header{
     position:sticky; top:0; z-index:100;
@@ -80,7 +77,6 @@
   .brand-text b { font-size: 1.1rem; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 900;}
   .brand-text span { font-size: 0.75rem; color: var(--cyan); letter-spacing: 0.2em; text-transform: uppercase; margin-left: 8px;}
   
-  /* MENÚ MEJORADO Y ORDENADO */
   nav.links{display:flex; gap:8px; flex-wrap: wrap; justify-content: flex-end; max-width: 850px;}
   nav.links a{
     color:var(--muted); font-size:0.7rem; font-weight:700; padding:5px 8px; border-radius:4px; transition: all 0.2s; text-transform: uppercase; letter-spacing: 0.05em;
@@ -304,16 +300,16 @@
 
 <main>
   <section id="sec-1" class="wrap" style="padding-top: 100px;">
-    <div class="sec-head reveal"><div class="kicker">Sección 1</div><h2>Noticias de la Liga</h2></div>
-    <div class="panel reveal">
+    <div class="sec-head"><div class="kicker">Sección 1</div><h2>Noticias de la Liga</h2></div>
+    <div class="panel">
       <div class="panel-title">Últimos Anuncios <span>0</span></div>
       <p style="color: var(--muted); text-align: center; padding: 20px 0;">No hay noticias publicadas en este momento.</p>
     </div>
   </section>
 
   <section id="sec-2" class="wrap">
-    <div class="sec-head reveal"><div class="kicker">Sección 2</div><h2>Reglamento Oficial</h2></div>
-    <div class="panel reveal">
+    <div class="sec-head"><div class="kicker">Sección 2</div><h2>Reglamento Oficial</h2></div>
+    <div class="panel">
       <ul style="color: var(--muted); line-height: 2;">
         <li>1. Respetar a todos los miembros de la comunidad.</li>
         <li>2. No hacer uso de programas de terceros (cheats).</li>
@@ -331,8 +327,8 @@
   </section>
 
   <section id="sec-4" class="wrap" style="padding-top: 0;">
-    <div class="sec-head reveal"><div class="kicker">Sección 4</div><h2>Estadísticas Globales</h2></div>
-    <div class="stats-grid reveal">
+    <div class="sec-head"><div class="kicker">Sección 4</div><h2>Estadísticas Globales</h2></div>
+    <div class="stats-grid">
       <div class="stat-box"><b>0</b><span>Jugadores</span></div>
       <div class="stat-box"><b>0</b><span>Partidos</span></div>
       <div class="stat-box"><b>0</b><span>Goles</span></div>
@@ -341,8 +337,8 @@
   </section>
 
   <section id="sec-5" class="wrap">
-    <div class="sec-head reveal"><div class="kicker">Sección 5</div><h2>Tabla - Grupo A</h2></div>
-    <div class="panel reveal" style="max-width: 800px; margin: 0 auto;">
+    <div class="sec-head"><div class="kicker">Sección 5</div><h2>Tabla - Grupo A</h2></div>
+    <div class="panel" style="max-width: 800px; margin: 0 auto;">
       <div class="table-wrap">
         <table><thead><tr><th>#</th><th>Equipo</th><th>PJ</th><th>DG</th><th>Pts</th></tr></thead>
         <tbody><tr><td>1</td><td>-</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2</td><td>-</td><td>0</td><td>0</td><td>0</td></tr><tr><td>3</td><td>-</td><td>0</td><td>0</td><td>0</td></tr><tr><td>4</td><td>-</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>
@@ -351,8 +347,8 @@
   </section>
 
   <section id="sec-6" class="wrap">
-    <div class="sec-head reveal"><div class="kicker">Sección 6</div><h2>Tabla - Grupo B</h2></div>
-    <div class="panel reveal" style="max-width: 800px; margin: 0 auto;">
+    <div class="sec-head"><div class="kicker">Sección 6</div><h2>Tabla - Grupo B</h2></div>
+    <div class="panel" style="max-width: 800px; margin: 0 auto;">
       <div class="table-wrap">
         <table><thead><tr><th>#</th><th>Equipo</th><th>PJ</th><th>DG</th><th>Pts</th></tr></thead>
         <tbody><tr><td>1</td><td>-</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2</td><td>-</td><td>0</td><td>0</td><td>0</td></tr><tr><td>3</td><td>-</td><td>0</td><td>0</td><td>0</td></tr><tr><td>4</td><td>-</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>
@@ -361,8 +357,8 @@
   </section>
 
   <section id="sec-7" class="wrap">
-    <div class="sec-head reveal"><div class="kicker">Sección 7</div><h2>Tabla General</h2></div>
-    <div class="panel reveal" style="max-width: 800px; margin: 0 auto;">
+    <div class="sec-head"><div class="kicker">Sección 7</div><h2>Tabla General</h2></div>
+    <div class="panel" style="max-width: 800px; margin: 0 auto;">
       <div class="table-wrap">
         <table><thead><tr><th>#</th><th>Equipo</th><th>PJ</th><th>DG</th><th>Pts</th></tr></thead>
         <tbody><tr><td>1</td><td>-</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2</td><td>-</td><td>0</td><td>0</td><td>0</td></tr><tr><td>3</td><td>-</td><td>0</td><td>0</td><td>0</td></tr><tr><td>4</td><td>-</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>
@@ -371,21 +367,21 @@
   </section>
 
   <section id="sec-8" class="wrap">
-    <div class="sec-head reveal"><div class="kicker">Sección 8</div><h2>Próximos Partidos</h2></div>
-    <div class="panel reveal" style="max-width: 800px; margin: 0 auto;">
+    <div class="sec-head"><div class="kicker">Sección 8</div><h2>Próximos Partidos</h2></div>
+    <div class="panel" style="max-width: 800px; margin: 0 auto;">
       <div class="match-card"><div><div style="font-size: 0.75rem; color: var(--muted); margin-bottom: 5px;">Fecha pendiente</div><div class="match-teams">Equipo A <span class="match-vs">VS</span> Equipo B</div></div><span style="color: var(--gold); font-weight: 700;">0 - 0</span></div>
       <div class="match-card"><div><div style="font-size: 0.75rem; color: var(--muted); margin-bottom: 5px;">Fecha pendiente</div><div class="match-teams">Equipo C <span class="match-vs">VS</span> Equipo D</div></div><span style="color: var(--gold); font-weight: 700;">0 - 0</span></div>
     </div>
   </section>
 
   <section id="sec-9" class="wrap">
-    <div class="sec-head reveal"><div class="kicker">Sección 9</div><h2>Últimos Resultados</h2></div>
-    <div class="panel reveal" style="max-width: 800px; margin: 0 auto;"><p style="color: var(--muted); text-align: center; padding: 20px 0;">No hay resultados registrados aún.</p></div>
+    <div class="sec-head"><div class="kicker">Sección 9</div><h2>Últimos Resultados</h2></div>
+    <div class="panel" style="max-width: 800px; margin: 0 auto;"><p style="color: var(--muted); text-align: center; padding: 20px 0;">No hay resultados registrados aún.</p></div>
   </section>
 
   <section id="sec-10" class="wrap">
-    <div class="sec-head reveal"><div class="kicker">Sección 10</div><h2>Cartas de Jugadores</h2></div>
-    <div class="cards-grid reveal">
+    <div class="sec-head"><div class="kicker">Sección 10</div><h2>Cartas de Jugadores</h2></div>
+    <div class="cards-grid">
       <div class="player-card">
         <div class="pc-name">- - -</div>
         <div class="pc-club">Sin Equipo</div>
@@ -408,8 +404,8 @@
   </section>
 
   <section id="sec-11" class="wrap">
-    <div class="sec-head reveal"><div class="kicker">Sección 11</div><h2>Salas Públicas</h2></div>
-    <div class="panel reveal" style="max-width: 800px; margin: 0 auto;">
+    <div class="sec-head"><div class="kicker">Sección 11</div><h2>Salas Públicas</h2></div>
+    <div class="panel" style="max-width: 800px; margin: 0 auto;">
       <div class="room-item"><div class="room-name">☀️ 𝗦𝗢𝗟𝗔𝗥𝗜𝗦 ☀️ Sala 1 (x3)</div><button class="btn-join" onclick="alert('Sala vacía. Únete al Discord.')">Entrar</button></div>
       <div class="room-item"><div class="room-name">☀️ 𝗦𝗢𝗟𝗔𝗥𝗜𝗦 ☀️ Sala 2 (x4)</div><button class="btn-join" onclick="alert('Sala vacía. Únete al Discord.')">Entrar</button></div>
       <div class="room-item"><div class="room-name">☀️ 𝗦𝗢𝗟𝗔𝗥𝗜𝗦 ☀️ Sala 3 (x5)</div><button class="btn-join" onclick="alert('Sala vacía. Únete al Discord.')">Entrar</button></div>
@@ -417,50 +413,50 @@
   </section>
 
   <section id="sec-12" class="wrap">
-    <div class="sec-head reveal"><div class="kicker">Sección 12</div><h2>Eventos Especiales</h2></div>
-    <div class="grid-2 reveal">
+    <div class="sec-head"><div class="kicker">Sección 12</div><h2>Eventos Especiales</h2></div>
+    <div class="grid-2">
       <div class="event-card"><h3>Evento 1</h3><p style="color: var(--muted);">Detalles pendientes. 0 participantes.</p></div>
       <div class="event-card"><h3>Evento 2</h3><p style="color: var(--muted);">Detalles pendientes. 0 participantes.</p></div>
     </div>
   </section>
 
   <section id="sec-13" class="wrap">
-    <div class="sec-head reveal"><div class="kicker">Sección 13</div><h2>Nuestro Staff</h2></div>
-    <div class="grid-3 reveal">
+    <div class="sec-head"><div class="kicker">Sección 13</div><h2>Nuestro Staff</h2></div>
+    <div class="grid-3">
       <div class="staff-member"><div class="staff-avatar">?</div><h3>Vacante</h3><p style="color: var(--muted);">Pendiente</p></div>
       <div class="staff-member"><div class="staff-avatar">?</div><h3>Vacante</h3><p style="color: var(--muted);">Pendiente</p></div>
       <div class="staff-member"><div class="staff-avatar">?</div><h3>Vacante</h3><p style="color: var(--muted);">Pendiente</p></div>
     </div>
   </section>
 
-  <section id="sec-14" class="wrap"><div class="sec-head reveal"><div class="kicker">Sección 14</div><h2>Registros Históricos</h2></div><div class="panel reveal" style="max-width: 800px; margin: 0 auto;"><p style="text-align: center; color: var(--muted);">0 registros.</p></div></section>
+  <section id="sec-14" class="wrap"><div class="sec-head"><div class="kicker">Sección 14</div><h2>Registros Históricos</h2></div><div class="panel" style="max-width: 800px; margin: 0 auto;"><p style="text-align: center; color: var(--muted);">0 registros.</p></div></section>
 
-  <section id="sec-15" class="wrap"><div class="sec-head reveal"><div class="kicker">Sección 15</div><h2>Récords de la Liga</h2></div><div class="panel reveal" style="max-width: 800px; margin: 0 auto;"><p style="text-align: center; color: var(--muted);">0 récords.</p></div></section>
+  <section id="sec-15" class="wrap"><div class="sec-head"><div class="kicker">Sección 15</div><h2>Récords de la Liga</h2></div><div class="panel" style="max-width: 800px; margin: 0 auto;"><p style="text-align: center; color: var(--muted);">0 récords.</p></div></section>
 
-  <section id="sec-16" class="wrap"><div class="sec-head reveal"><div class="kicker">Sección 16</div><h2>Tabla de Goleadores</h2></div>
-    <div class="panel reveal" style="max-width: 800px; margin: 0 auto;"><div class="table-wrap"><table><thead><tr><th>#</th><th>Jugador</th><th>Goles</th></tr></thead><tbody><tr><td>1</td><td>-</td><td>0</td></tr><tr><td>2</td><td>-</td><td>0</td></tr></tbody></table></div></div>
+  <section id="sec-16" class="wrap"><div class="sec-head"><div class="kicker">Sección 16</div><h2>Tabla de Goleadores</h2></div>
+    <div class="panel" style="max-width: 800px; margin: 0 auto;"><div class="table-wrap"><table><thead><tr><th>#</th><th>Jugador</th><th>Goles</th></tr></thead><tbody><tr><td>1</td><td>-</td><td>0</td></tr><tr><td>2</td><td>-</td><td>0</td></tr></tbody></table></div></div>
   </section>
 
-  <section id="sec-17" class="wrap"><div class="sec-head reveal"><div class="kicker">Sección 17</div><h2>Tabla de Asistencias</h2></div>
-    <div class="panel reveal" style="max-width: 800px; margin: 0 auto;"><div class="table-wrap"><table><thead><tr><th>#</th><th>Jugador</th><th>Asist</th></tr></thead><tbody><tr><td>1</td><td>-</td><td>0</td></tr><tr><td>2</td><td>-</td><td>0</td></tr></tbody></table></div></div>
+  <section id="sec-17" class="wrap"><div class="sec-head"><div class="kicker">Sección 17</div><h2>Tabla de Asistencias</h2></div>
+    <div class="panel" style="max-width: 800px; margin: 0 auto;"><div class="table-wrap"><table><thead><tr><th>#</th><th>Jugador</th><th>Asist</th></tr></thead><tbody><tr><td>1</td><td>-</td><td>0</td></tr><tr><td>2</td><td>-</td><td>0</td></tr></tbody></table></div></div>
   </section>
 
-  <section id="sec-18" class="wrap"><div class="sec-head reveal"><div class="kicker">Sección 18</div><h2>Premios MVP</h2></div><div class="panel reveal" style="max-width: 800px; margin: 0 auto;"><p style="text-align: center; color: var(--muted);">0 MVPs otorgados.</p></div></section>
+  <section id="sec-18" class="wrap"><div class="sec-head"><div class="kicker">Sección 18</div><h2>Premios MVP</h2></div><div class="panel" style="max-width: 800px; margin: 0 auto;"><p style="text-align: center; color: var(--muted);">0 MVPs otorgados.</p></div></section>
 
-  <section id="sec-19" class="wrap"><div class="sec-head reveal"><div class="kicker">Sección 19</div><h2>Sanciones</h2></div><div class="panel reveal" style="max-width: 800px; margin: 0 auto;"><p style="text-align: center; color: var(--muted);">0 sanciones activas.</p></div></section>
+  <section id="sec-19" class="wrap"><div class="sec-head"><div class="kicker">Sección 19</div><h2>Sanciones</h2></div><div class="panel" style="max-width: 800px; margin: 0 auto;"><p style="text-align: center; color: var(--muted);">0 sanciones activas.</p></div></section>
 
   <section id="sec-20" class="wrap">
-    <div class="sec-head reveal"><div class="kicker">Sección 20</div><h2>Preguntas Frecuentes</h2></div>
-    <div style="max-width: 800px; margin: 0 auto;" class="reveal">
+    <div class="sec-head"><div class="kicker">Sección 20</div><h2>Preguntas Frecuentes</h2></div>
+    <div style="max-width: 800px; margin: 0 auto;">
       <details><summary>¿Cómo me uno?</summary><p>Entra al Discord oficial.</p></details>
       <details><summary>¿Hay premios?</summary><p>Se están definiendo (0 premios por ahora).</p></details>
     </div>
   </section>
 
-  <section id="sec-21" class="wrap"><div class="sec-head reveal"><div class="kicker">Sección 21</div><h2>Términos y Condiciones</h2></div><div class="panel reveal"><p style="color: var(--muted);">Texto legal pendiente de redacción (0 palabras).</p></div></section>
-  <section id="sec-22" class="wrap"><div class="sec-head reveal"><div class="kicker">Sección 22</div><h2>Política de Privacidad</h2></div><div class="panel reveal"><p style="color: var(--muted);">Texto legal pendiente de redacción (0 palabras).</p></div></section>
-  <section id="sec-23" class="wrap"><div class="sec-head reveal"><div class="kicker">Sección 23</div><h2>Contacto</h2></div><div class="panel reveal" style="text-align: center;"><p style="color: var(--muted); margin-bottom: 15px;">¿Tienes dudas? Contáctanos en Discord.</p><a href="https://discord.gg/jmfqZn88K2" target="_blank" class="btn btn-gold">Ir a Discord</a></div></section>
-  <section id="sec-24" class="wrap" style="padding-bottom: 80px;"><div class="sec-head reveal"><div class="kicker">Sección 24</div><h2>Patrocinios</h2></div><div class="panel reveal" style="text-align: center;"><p style="color: var(--muted); margin-bottom: 15px;">0 patrocinadores actuales.</p></div></section>
+  <section id="sec-21" class="wrap"><div class="sec-head"><div class="kicker">Sección 21</div><h2>Términos y Condiciones</h2></div><div class="panel"><p style="color: var(--muted);">Texto legal pendiente de redacción (0 palabras).</p></div></section>
+  <section id="sec-22" class="wrap"><div class="sec-head"><div class="kicker">Sección 22</div><h2>Política de Privacidad</h2></div><div class="panel"><p style="color: var(--muted);">Texto legal pendiente de redacción (0 palabras).</p></div></section>
+  <section id="sec-23" class="wrap"><div class="sec-head"><div class="kicker">Sección 23</div><h2>Contacto</h2></div><div class="panel" style="text-align: center;"><p style="color: var(--muted); margin-bottom: 15px;">¿Tienes dudas? Contáctanos en Discord.</p><a href="https://discord.gg/jmfqZn88K2" target="_blank" class="btn btn-gold">Ir a Discord</a></div></section>
+  <section id="sec-24" class="wrap" style="padding-bottom: 80px;"><div class="sec-head"><div class="kicker">Sección 24</div><h2>Patrocinios</h2></div><div class="panel" style="text-align: center;"><p style="color: var(--muted); margin-bottom: 15px;">0 patrocinadores actuales.</p></div></section>
 </main>
 
 <footer>
@@ -481,16 +477,6 @@
   navLinks.addEventListener('click', (e) => {
     if (e.target.tagName === 'A') navLinks.classList.remove('open');
   });
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('in');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.1 });
-  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
   const snowContainer = document.getElementById('snow');
   const snowflakeCount = 50;
